@@ -1,0 +1,175 @@
+html {
+  background: url(images/background-1200x1200.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.extender {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  width: 100%;
+  height: 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.position-center {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.profile-main {
+  /*margin: 0 auto;*/
+  overflow: hidden;
+  min-width: 225px;
+  max-width: 325px;
+  min-height: 350px;
+  max-height: 450px;
+  width: 100%;
+  color: #ffffff;
+  text-align: center;
+  line-height: 1.4em;
+  background: rgba(47, 54, 62, 1);
+  border-radius: 3%;
+  border: 1px solid black;
+  box-shadow: 0 8px 6px -6px black;
+}
+
+.profile-main * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+.profile-main .profile {
+  border-radius: 50%;
+  max-width: 180px;
+  opacity: 1;
+  border: 5px solid #E7DECD;
+  position: absolute;
+  width: 160px;
+  top: 50%;
+  left: 50%;
+  margin: -10px 0 0 -80px;
+}
+
+.profile-color {
+  position: relative;
+  height: 145px;
+  margin-bottom: 40px;
+  background: #E7DECD;
+}
+
+.adjustment {
+  padding-top: 15px;
+  color: white;
+
+  font-size:20px;
+
+}
+
+.positioning {
+  display:block;
+  margin: 0 0 -15px;
+
+}
+
+.profile-main figcaption {
+  font-family: 'Dosis', serif;
+  width: 100%;
+  padding: 28px 30px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+}
+
+.profile-main .name {
+  font-family: 'Raleway', sans-serif;
+  margin: 0 0 5px;
+  margin-bottom: 20px;
+  font-weight: 100;
+  font-size: larger;
+  color: #E7DECD;
+}
+
+.profile-main .name span {
+  display: block;
+  padding: 3px 3px;
+  font-size: 0.7em;
+  color: #545d66;
+}
+
+.profile-main .follow-button {
+  display: inline-block;
+  width: 165px;
+  margin: 0 auto;
+  padding: 13px 0;
+  color: #e6dfcd;
+  background: #c44b30;
+  font-size: 12px;
+  font-family: 'Istok+Web', sans-serif;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 4px;
+  text-shadow: 1px 1px 1px #444;
+  box-shadow: inset 0px 2px 3px -3px #e6dfcd, 0 0 1px #181c1d;
+}
+
+.set-flex {
+  flex-direction: column;
+}
+
+.profile-bottom {
+  margin-top: 70%;
+  display: flex;
+  background: #313840;
+}
+
+.profile-bottom .follow {
+  flex: 1;
+  padding: 0 0;
+  box-shadow: inset -1px 1px 2px -1px #4D525E;
+
+  border-top: 1px solid black;
+}
+
+.profile-bottom .follow + .follow{
+  border-left: 1px solid #171a1f;
+}
+
+.follow-number {
+  display: inline-block;
+  margin-right: 5px;
+  color: #191e24;
+  font-size: 21px;
+  font-family: 'Karla', sans-serif;
+  font-weight: bolder;
+}
+
+.follow-data {
+  font-size: 14px;
+  font-family: 'Numans', sans-serif;
+  text-align: center;
+  color: #535d69;
+}
